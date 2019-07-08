@@ -1,6 +1,8 @@
 # RRSR
 Single Image Super Resolution Reconstruction Based on Recursive Residual Convolutional Neural Network
 
+![image](image/poster.PNG)
+
 We refer to the main idea of ResNet and construct a residual block structure with three convolutional layers. First, the image features are extracted by a convolution layer. Then after passing each residual block, we add the feature image extracted from the first convolutional layer. by doing so, we keep the branch inputs of the residuals consistent. More image information is transmitted to the deep network.
 The function of the residual network is
 
